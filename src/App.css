@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: 'Inter';
+    background: white;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0; */
+}
+
+.login-container, .welcome-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.home-container{
+    display: flex;
+    flex-direction: column;
+    margin: 0 300px;
+}
+
+@media (max-width: 1200px) {
+    .home-container {
+        margin: 0 150px; /* ปรับ margin สำหรับหน้าจอขนาดกลาง */
+    }
+}
+
+@media (max-width: 768px) {
+    .home-container {
+        margin: 0 50px; /* ปรับ margin สำหรับหน้าจอแท็บเล็ต */
+    }
+}
+
+@media (max-width: 480px) {
+    .home-container {
+        margin: 0 20px; /* ปรับ margin สำหรับหน้าจอมือถือ */
+    }
+}
