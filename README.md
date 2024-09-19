@@ -1,6 +1,3 @@
-แน่นอนครับ นี่คือตัวอย่าง README สำหรับโปรเจกต์ Dashboard เว็บ:
-
----
 
 # Dashboard Web App
 
